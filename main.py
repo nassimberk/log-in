@@ -1,8 +1,7 @@
 from tkinter import *
-import webbrowser
 
-def MyProfilGitHub():
-    webbrowser.open_new("https://github.com/nassimberk")
+
+
 
 # Personnalisation de la fenêtre:
 
@@ -22,7 +21,7 @@ entry_id = Entry(frame, fg="#4174E1")
 label_id = Label(frame, text= "Entrer votre identifiant :", bg="#4174E1" ,fg="white")
 entry_pw = Entry(frame, show="*", fg="#4174E1")
 label_pw = Label(frame, text="Entrer votre mot de passe :", bg="#4174E1", fg="white")
-button_connexion = Button(frame, text="connexion",bg="#1044E1", fg="white", command=MyProfilGitHub, width= 17)
+button_connexion = Button(frame, text="connexion",bg="#1044E1", fg="white", width= 17)
 check_widget = Checkbutton(frame, text="Mémoirisez mon identifiant", bg="#4174E1", fg="White")
 button_pw_oublie = Button(frame, text="Mot de passe oublié ?", bg="#4174E1", fg="white", border=0)
 button_new_member = Button(frame, text="Créer nouveau compte", bg="#1044E1", fg="white")
